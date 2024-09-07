@@ -1,6 +1,6 @@
 # Continual Learning for Time Series Survey and Evaluation
 
-## Project Objective 
+## Project Objectives
 
 Continual Learning aims to overcome catastrophic forgetting of deep neural networks during the incremental learning process with distribution shifts. While there has been significant progress in the image domain, Time Series Continual Learning (TSCL) remains relatively under-explored. 
 
