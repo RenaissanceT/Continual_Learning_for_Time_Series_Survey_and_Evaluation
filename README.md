@@ -8,7 +8,7 @@ This project aims to conduct a comprehensive review of Continual Learning, with 
 
 The expected outcome is the development of a detailed survey and benchmark paper, which will be suitable for submission to a top-tier journal. 
 
-## Learning Resource 
+## Learning Resources
 
 #### Textbook materials
 -  [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
