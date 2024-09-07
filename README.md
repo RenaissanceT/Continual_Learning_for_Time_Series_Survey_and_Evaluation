@@ -14,7 +14,7 @@ The expected outcome is the development of a detailed survey and benchmark paper
 -  [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
 -  [DeepLearning 500 questions](https://github.com/scutan90/DeepLearning-500-questions/blob/6087a06b112c3c28b885ab2f794535c19a9e4326/ch06_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN)/%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN).md)
 
-#### Online Course materials
+#### Online course materials
 - [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
 - [Complete Pytorch Tensor Tutorial](https://www.youtube.com/watch?v=x9JiIFvlUwk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=3)
 - [Transformer论文逐段精读【论文精读】](https://www.bilibili.com/video/BV1pu411o7BE/?spm_id_from=333.337.search-card.all.click&vd_source=8623c406df8c303d110f79af6773eb29)
