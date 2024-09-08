@@ -8,7 +8,7 @@ This document is designed to track the weekly project and learning progress.
 # `Week 1: 09/02 - 09/08`
 
 ## <sub> Learning materials
--  [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
+- [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
 - [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
   
 ## <sub> To-do lists
@@ -18,10 +18,13 @@ This document is designed to track the weekly project and learning progress.
 4. Read [Chapter 5. 深度学习计算](https://zh-v2.d2l.ai/chapter_deep-learning-computation/index.html)  $\textcolor{green}{Ongoing}$ 
 5. Read Deep Learning Textbook Chapter 5. 最大似然估计  $\textcolor{green}{Ongoing}$ 
 
+## <sub> Potential examined topics
+- 
+
 # `Week 2: 09/09 - 09/15`
 
 ## <sub> Learning materials
--  [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
+- [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
 - [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
   
 ## <sub> To-do lists
