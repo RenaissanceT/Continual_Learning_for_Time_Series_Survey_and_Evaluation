@@ -15,8 +15,8 @@ This document is designed to track the weekly project and learning progress.
 1. Read [Chapter 2. 预备知识](https://zh-v2.d2l.ai/chapter_preliminaries/index.html)  $\textcolor{red}{Done}$ 
 2. Read [Chapter 3. 线性神经网络](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)  $\textcolor{red}{Done}$ 
 3. Read [Chapter 4. 多层感知机](https://zh-v2.d2l.ai/chapter_multilayer-perceptrons/index.html)  $\textcolor{red}{Done}$ 
-4. Read [Chapter 5. 深度学习计算](https://zh-v2.d2l.ai/chapter_deep-learning-computation/index.html)  $\textcolor{green}{Ongoing}$ 
-5. Read Deep Learning Textbook Chapter 5. 最大似然估计  $\textcolor{green}{Ongoing}$ 
+4. Read [Chapter 5. 深度学习计算](https://zh-v2.d2l.ai/chapter_deep-learning-computation/index.html)  $\textcolor{red}{Done}$ 
+5. Read Deep Learning Textbook Chapter 5. 最大似然估计  $\textcolor{red}{Done}$ 
 
 ## <sub> Potential examined topics
 - 
