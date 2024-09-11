@@ -18,8 +18,8 @@ This document is designed to track the weekly project and learning progress.
 4. Read [Chapter 5. 深度学习计算](https://zh-v2.d2l.ai/chapter_deep-learning-computation/index.html)  $\textcolor{red}{Done}$ 
 5. Read Deep Learning Textbook Chapter 5. 最大似然估计  $\textcolor{red}{Done}$ 
 
-## <sub> 深度学习复习_第一部分
-- 
+## <sub> 深度学习第一部分复习专栏
+- [深度学习_第一部分](https://github.com/RenaissanceT/Continual-Learning-for-Time-Series-Survey-and-Evaluation/blob/main/Project%20Progress/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0_%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86.md)
 
 # `Week 2: 09/09 - 09/15`
 
