@@ -18,7 +18,7 @@ This document is designed to track the weekly project and learning progress.
 4. Read [Chapter 5. 深度学习计算](https://zh-v2.d2l.ai/chapter_deep-learning-computation/index.html)  $\textcolor{red}{Done}$ 
 5. Read Deep Learning Textbook Chapter 5. 最大似然估计  $\textcolor{red}{Done}$ 
 
-## <sub> Potential examined topics
+## <sub> Potential interviewed topics
 - 
 
 # `Week 2: 09/09 - 09/15`
