@@ -31,10 +31,10 @@ This document is designed to track the weekly project and learning progress.
 - [LLM 相关知识及面试题](https://github.com/wdndev/llm_interview_note)
   
 ## <sub> To-do lists
-1. Read [Chapter 6. 卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-neural-networks/index.html) $\textcolor{green}{Ongoing}$ 
-2. Read [Chapter 7. 现代卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-modern/index.html) $\textcolor{green}{Ongoing}$ 
-3. Read [Chapter 8. 循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/index.html)  $\textcolor{green}{Ongoing}$ 
-4. Read [Chapter 9. 现代循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-modern/index.html)  $\textcolor{green}{Ongoing}$ 
+1. Read [Chapter 6. 卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-neural-networks/index.html) $\textcolor{red}{Done}$ 
+2. Read [Chapter 7. 现代卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-modern/index.html) $\textcolor{red}{Done}$  
+3. Read [Chapter 8. 循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/index.html)  $\textcolor{red}{Done}$ 
+4. Read [Chapter 9. 现代循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-modern/index.html)  $\textcolor{red}{Done}$ 
 5. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$ 
 6. Read [Chapter 11. 优化算法](https://zh-v2.d2l.ai/chapter_optimization/index.html)  $\textcolor{green}{Ongoing}$
 
