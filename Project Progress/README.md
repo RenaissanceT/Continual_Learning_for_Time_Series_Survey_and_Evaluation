@@ -32,6 +32,7 @@ This document is designed to track the weekly project and learning progress.
   
 ## <sub> To-do lists
 1. Read [Chapter 6. 卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-neural-networks/index.html) $\textcolor{red}{Done}$ 
+- &rarr; [LeNet卷积神经网络模型训练]()
 2. Read [Chapter 7. 现代卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-modern/index.html) $\textcolor{red}{Done}$  
 3. Read [Chapter 8. 循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/index.html)  $\textcolor{red}{Done}$ 
 4. Read [Chapter 9. 现代循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-modern/index.html)  $\textcolor{red}{Done}$ 
