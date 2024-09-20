@@ -7,11 +7,6 @@ This document is designed to track the weekly project and learning progress.
 
 # `Week 1: 09/02 - 09/08`
 
-## <sub> Learning materials
-- [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
-- [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
-- [Deep Learning 500 questions](https://github.com/scutan90/DeepLearning-500-questions/blob/6087a06b112c3c28b885ab2f794535c19a9e4326/ch06_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN)/%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN).md)
-  
 ## <sub> To-do lists
 1. Read [Chapter 2. 预备知识](https://zh-v2.d2l.ai/chapter_preliminaries/index.html)  $\textcolor{red}{Done}$ 
 2. Read [Chapter 3. 线性神经网络](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)  $\textcolor{red}{Done}$ 
@@ -24,12 +19,6 @@ This document is designed to track the weekly project and learning progress.
 
 # `Week 2: 09/09 - 09/15`
 
-## <sub> Learning materials
-- [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
-- [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
-- [Deep Learning 500 questions](https://github.com/scutan90/DeepLearning-500-questions/blob/6087a06b112c3c28b885ab2f794535c19a9e4326/ch06_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN)/%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN).md)
-- [LLM 相关知识及面试题](https://github.com/wdndev/llm_interview_note)
-  
 ## <sub> To-do lists
 1. Read [Chapter 6. 卷积神经网络](https://zh-v2.d2l.ai/chapter_convolutional-neural-networks/index.html) $\textcolor{red}{Done}$ 
 - &rarr; [LeNet卷积神经网络模型训练]()
@@ -41,14 +30,8 @@ This document is designed to track the weekly project and learning progress.
 ## <sub> 深度学习第二部分复习专栏
 - []()
 
-
 # `Week 3: 09/16 - 09/22`
-## <sub> Learning materials
-- [Dive into Deep Learning](https://zh-v2.d2l.ai/chapter_linear-networks/index.html)
-- [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
-- [Deep Learning 500 questions](https://github.com/scutan90/DeepLearning-500-questions/blob/6087a06b112c3c28b885ab2f794535c19a9e4326/ch06_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN)/%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C(RNN).md)
-- [LLM 相关知识及面试题](https://github.com/wdndev/llm_interview_note)
-  
+
 ## <sub> To-do lists
 1. Watch the [Pytorch Tutorial_Aladdin Persson](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz)
 2. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$ 
@@ -56,12 +39,15 @@ This document is designed to track the weekly project and learning progress.
 ## <sub> Pytorch Turtorial
 - [Pytorch Tutorial](https://github.com/RenaissanceT/Continual-Learning-for-Time-Series-Survey-and-Evaluation/tree/main/Pytorch%20Tutorial)
 
-# `Week 3: 09/23 - 09/29`
+# `Week 4: 09/23 - 09/29`
 
 ## <sub> To-do lists
 1. Watch the [Pytorch Tutorial_Aladdin Persson](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz)
 2. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$
 3. Article Analysis
+- [Class-incremental Learning for Time Series: Benchmark and Evaluation](https://arxiv.org/abs/2402.12035)
+- [Three types of incremental learning](https://www.nature.com/articles/s42256-022-00568-3)
+- [Three scenarios for continual learning](https://arxiv.org/abs/1904.07734)
 
 ## <sub> Pytorch Turtorial
 - [Pytorch Tutorial](https://github.com/RenaissanceT/Continual-Learning-for-Time-Series-Survey-and-Evaluation/tree/main/Pytorch%20Tutorial)
