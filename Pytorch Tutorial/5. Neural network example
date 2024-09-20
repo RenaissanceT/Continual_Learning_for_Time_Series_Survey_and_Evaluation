@@ -1,0 +1,178 @@
+
+
+
+```python
+# Imports
+
+# torch 是 PyTorch 的核心库，它提供了多种张量操作和自动求导功能。
+#
+import torch
+
+# torch.nn 包含了构建神经网络的基本组件，例如各种层和损失函数。
+#
+# nn.Module: 所有神经网络模块的基类。
+# nn.Linear: 全连接层。
+# nn.Conv2d: 卷积层。
+# nn.ReLU: 激活函数。
+import torch.nn as nn
+
+# torch.optim 包含了各种优化算法，用于更新神经网络的参数以最小化损失函数。
+#
+# optim.SGD: 随机梯度下降优化器。
+# optim.Adam: Adam 优化器。
+import torch.optim as optim
+
+# torch.nn.functional 提供了函数式的接口来执行神经网络的各种操作和计算，例如激活函数、卷积操作等。
+#
+# F.relu: ReLU 激活函数。
+# F.softmax: Softmax 函数。
+import torch.nn.functional as F
+from sympy.physics.units import acceleration
+
+# DataLoader 是 PyTorch 提供的数据加载工具，用于将数据集加载到内存中并批量化处理。
+#
+# DataLoader: 数据加载器，负责打乱数据、分批次加载。!
+from torch.utils.data import DataLoader
+
+# torchvision.datasets 包含了许多常用的公共数据集，可以直接用于训练和测试模型。
+# (Create a binibatch to test on)
+# datasets.MNIST: MNIST 手写数字数据集。
+# datasets.CIFAR10: CIFAR-10 图像数据集。
+import torchvision.datasets as datasets
+
+# torchvision.transforms 提供了一些常用的数据预处理和增强操作。
+#
+# transforms.ToTensor(): 将图像转换为张量。
+# transforms.Normalize(mean, std): 归一化操作。
+import torchvision.transforms as transforms
+
+# Create fully connected network
+# 定义神经网络类：NN 类包含两个全连接层，并在前向传播中应用 ReLU 激活函数。
+class NN(nn.Module):
+    def __init__(self, input_size, num_classes):
+        # 实例化模型：创建一个 NN 类的实例，指定输入大小和输出类别数量。
+        super(NN, self).__init__()
+
+        # defines the first fully connected layer with an input size of 784 and an output size of 50.
+        self.fc1 = nn.Linear(input_size, 50)
+
+        # defines the second fully connected layer with an input size of 50 and an output size of 10.
+        self.fc2 = nn.Linear(50, num_classes)
+
+    def forward(self, x):
+        # The input x of shape [64, 784] is passed through self.fc1
+        # resulting in an intermediate tensor of shape [64, 50].
+        # The ReLU activation function is applied, but this does not change the shape
+        # so the intermediate tensor remains [64, 50].
+        x = F.relu(self.fc1(x))  # 应用 ReLU 激活函数
+        # The intermediate tensor of shape [64, 50] is passed through self.fc2
+        # resulting in an output tensor of shape [64, 10].
+        x = self.fc2(x)
+        return x
+
+
+# model = NN(784, 10)
+# 生成一个形状为 (64, 784) 的随机张量 x
+# 表示 64 个批次的输入，每个输入大小为 784
+# 想象成3D的tensor，28 X 28 X 64, 64个样本，单个样本是28 X 28
+# x = torch.randn(64, 784)
+# print(model(x).shape) # torch.Size([64, 10])
+
+# Set device
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Hyperparameters
+
+input_size = 784
+num_classes = 10
+learning_rate = 0.001
+batch_size = 64
+num_epochs = 1
+
+# Load data
+
+# 加载训练数据集并将图像转换为张量
+train_dataset = datasets.MNIST(root='dataset/',train=True, transform=transforms.ToTensor(), download=True)
+# 创建训练数据加载器，每个批次大小为 batch_size，并在每个 epoch 开始前打乱数据
+train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
+# 加载测试数据集并将图像转换为张量
+test_dataset = datasets.MNIST(root='dataset/', train=False, transform=transforms.ToTensor(), download=True)
+# 创建测试数据加载器，每个批次大小为 batch_size，并在每个 epoch 开始前打乱数据
+test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
+
+# Initialize network
+
+model = NN(input_size=input_size, num_classes=num_classes).to(device)
+
+# Loss and Optimizer
+# criterion 是损失函数，用于计算模型输出与真实标签之间的误差。
+# nn.CrossEntropyLoss()：这是交叉熵损失函数，通常用于多分类问题。
+# 它将模型的输出（未归一化的得分）和目标标签作为输入，并计算损失值。
+# 这个损失函数会自动应用 softmax 激活函数，因此不需要在输出层手动添加 softmax。
+criterion = nn.CrossEntropyLoss()
+
+# optimizer 是优化器，用于更新模型的参数，以最小化损失函数的值。
+# optim.Adam：这是 Adam 优化器，一种常用的优化算法，结合了动量和自适应学习率调整的优点。
+# model.parameters()：传递模型的参数给优化器，以便它可以更新这些参数。
+# lr=learning_rate：设置学习率，决定每次更新模型参数时步长的大小。
+optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+# Train Network
+
+for epoch in range(num_epochs):
+    for batch_index, (data,target) in enumerate (train_loader):
+        # Get data to cuda if possible
+        data = data.to(device=device)
+        target = target.to(device=device)
+
+        # Get to correct shape
+        data = data.reshape(data.shape[0], -1)
+
+        # forward
+        scores = model(data)
+        loss = criterion(scores, target)
+
+        # backward
+        optimizer.zero_grad()
+        loss.backward()
+
+        # gradient descent on adam step
+        # 参数更新
+        optimizer.step()
+
+# Check accuracy and training & Test to see how good our model
+
+def check_accuracy(loader, model):
+
+    if loader.dataset.train:
+        print('Checking NN accuracy on training set')
+    else:
+        print('Checking NN accuracy on test set')
+
+    num_correct = 0
+    num_samples = 0
+
+    # model.eval()：将模型设置为评估模式，禁用 dropout 和 batch normalization。
+    model.eval()
+
+    # torch.no_grad()：在这个上下文中禁用梯度计算，以节省内存和计算资源。
+    with torch.no_grad():
+        for x, y in loader:
+            x = x.to(device=device)
+            y = y.to(device=device)
+            x = x.reshape(x.shape[0], -1)
+
+            scores = model(x)
+            _, predictions = scores.max(1)
+            num_correct += (predictions == y).sum()
+            num_samples += predictions.size(0)
+
+        print(f'Got {num_correct} / {num_samples} with NN accuracy {(num_correct / num_samples) * 100:.2f}')
+
+    model.train()
+
+check_accuracy(train_loader, model)
+check_accuracy(test_loader, model)
+```
+
