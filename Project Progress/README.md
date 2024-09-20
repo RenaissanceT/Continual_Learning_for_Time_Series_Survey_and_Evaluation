@@ -50,7 +50,7 @@ This document is designed to track the weekly project and learning progress.
 - [LLM 相关知识及面试题](https://github.com/wdndev/llm_interview_note)
   
 ## <sub> To-do lists
-1. Watch the Youtube
+1. Watch the [Pytorch Tutorial_Aladdin Persson](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz)
 2. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$ 
 
 ## <sub> Pytorch Turtorial
@@ -59,9 +59,9 @@ This document is designed to track the weekly project and learning progress.
 # `Week 3: 09/23 - 09/29`
 
 ## <sub> To-do lists
-1. Watch the Youtube
+1. Watch the [Pytorch Tutorial_Aladdin Persson](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz)
 2. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$
-3. 
+3. Article Analysis
 
 ## <sub> Pytorch Turtorial
 - [Pytorch Tutorial](https://github.com/RenaissanceT/Continual-Learning-for-Time-Series-Survey-and-Evaluation/tree/main/Pytorch%20Tutorial)
