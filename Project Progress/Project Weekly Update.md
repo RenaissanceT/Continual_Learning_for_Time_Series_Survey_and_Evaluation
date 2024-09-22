@@ -45,9 +45,9 @@ This document is designed to track the weekly project and learning progress.
 1. Watch the [Pytorch Tutorial_Aladdin Persson](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz) $\textcolor{green}{Ongoing}$ 
 2. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$
 3. Article Analysis <Br/>
-   1）[Class-incremental Learning for Time Series: Benchmark and Evaluation](https://arxiv.org/abs/2402.12035) $\textcolor{green}{Ongoing}$ <Br/>
-   2) [Three types of incremental learning](https://www.nature.com/articles/s42256-022-00568-3)  $\textcolor{green}{Ongoing}$  <Br/>
-   3) [Three scenarios for continual learning](https://arxiv.org/abs/1904.07734)  $\textcolor{green}{Ongoing}$  <Br/>
+   1）[Class-incremental Learning for Time Series: Benchmark and Evaluation](https://arxiv.org/abs/2402.12035)  $\textcolor{red}{Done}$  <Br/>
+   2) [Three types of incremental learning](https://www.nature.com/articles/s42256-022-00568-3)   $\textcolor{red}{Done}$   <Br/>
+   3) [Three scenarios for continual learning](https://arxiv.org/abs/1904.07734)   $\textcolor{red}{Done}$   <Br/>
 
 ## <sub> Pytorch Turtorial
 - [Pytorch Tutorial](https://github.com/RenaissanceT/Continual-Learning-for-Time-Series-Survey-and-Evaluation/tree/main/Pytorch%20Tutorial)
