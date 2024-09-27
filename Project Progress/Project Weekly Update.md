@@ -27,9 +27,6 @@ This document is designed to track the weekly project and learning progress.
 4. Read [Chapter 9. 现代循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-modern/index.html)  $\textcolor{red}{Done}$ 
 5. Read [Chapter 10. 注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)  $\textcolor{green}{Ongoing}$ 
 
-## <sub> 深度学习第二部分复习专栏
-- []()
-
 # `Week 3: 09/16 - 09/22`
 
 ## <sub> To-do lists
@@ -51,4 +48,7 @@ This document is designed to track the weekly project and learning progress.
 
 ## <sub> Pytorch Turtorial
 - [Pytorch Tutorial](https://github.com/RenaissanceT/Continual-Learning-for-Time-Series-Survey-and-Evaluation/tree/main/Pytorch%20Tutorial)
-  
+
+## <sub> 深度学习第二部分复习专栏
+- []()
+
