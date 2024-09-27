@@ -23,8 +23,6 @@ The expected outcome is the development of a detailed survey and benchmark paper
 
 
 #### Published paper learning materials 
-- [Class-incremental Learning for Time Series: Benchmark and Evaluation](https://arxiv.org/abs/2402.12035)
-- [Three types of incremental learning](https://www.nature.com/articles/s42256-022-00568-3)
-- [Three scenarios for continual learning](https://arxiv.org/abs/1904.07734)
-
+- [Awesome Incremental Learning](https://github.com/xialeiliu/Awesome-Incremental-Learning?tab=readme-ov-file)
+  
 ### [ )  <br/>
